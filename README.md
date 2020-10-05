@@ -5,3 +5,4 @@ Learning Laravel Fundamentals
 - routes
 - controllers
 - views
+- laravel blade templating engine
