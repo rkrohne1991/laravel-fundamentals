@@ -6,3 +6,4 @@ Learning Laravel Fundamentals
 - controllers
 - views
 - laravel blade templating engine
+- Laravel Migrations
