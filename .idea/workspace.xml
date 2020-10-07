@@ -24,9 +24,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8d10786f-e302-48a5-8110-2c03b96d575e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/database/migrations/2020_10_05_092053_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/database/migrations/2020_10_05_092053_create_posts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +180,8 @@
       <workItem from="1601883960889" duration="2476000" />
       <workItem from="1601886539283" duration="12000" />
       <workItem from="1601886598082" duration="3419000" />
-      <workItem from="1602050872545" duration="1691000" />
+      <workItem from="1602050872545" duration="4743000" />
+      <workItem from="1602094995241" duration="843000" />
     </task>
     <task id="LOCAL-00001" summary="Laravel Fundamentals - initial commit">
       <created>1601884210869</created>
@@ -197,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601886443439</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finishing task with Laravel Migrations">
+      <created>1602052759293</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602052759293</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,21 +225,24 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Laravel Fundamentals - initial commit" />
     <MESSAGE value="Adding Laravel Blade templating engine" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Laravel Blade templating engine" />
+    <MESSAGE value="Finishing task with Laravel Migrations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing task with Laravel Migrations" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1201" y="485" key="NewPhpFileDialog" timestamp="1601884570343">
       <screen x="-2048" y="23" width="2048" height="1061" />
     </state>
     <state x="-1201" y="485" key="NewPhpFileDialog/-2048.23.2048.1061/0.23.1440.877@-2048.23.2048.1061" timestamp="1601884570343" />
-    <state x="-1424" y="296" key="Vcs.Push.Dialog.v2" timestamp="1601886447440">
-      <screen x="-2048" y="23" width="2048" height="1129" />
+    <state x="-1424" y="280" key="Vcs.Push.Dialog.v2" timestamp="1602052761186">
+      <screen x="-2048" y="23" width="2048" height="1061" />
     </state>
     <state x="-1424" y="280" key="Vcs.Push.Dialog.v2/-2048.23.2048.1061/0.23.1440.877@-2048.23.2048.1061" timestamp="1601884218016" />
+    <state x="-1424" y="280" key="Vcs.Push.Dialog.v2/-2048.23.2048.1061/0.23.1680.1027@-2048.23.2048.1061" timestamp="1602052761186" />
     <state x="-1424" y="296" key="Vcs.Push.Dialog.v2/-2048.23.2048.1129/0.23.1440.809@-2048.23.2048.1129" timestamp="1601886447440" />
-    <state x="-1317" y="187" width="586" height="735" key="find.popup" timestamp="1601889486692">
-      <screen x="-2048" y="23" width="2048" height="1129" />
+    <state x="-1317" y="177" width="586" height="691" key="find.popup" timestamp="1602052964685">
+      <screen x="-2048" y="23" width="2048" height="1061" />
     </state>
+    <state x="-1317" y="177" width="586" height="691" key="find.popup/-2048.23.2048.1061/0.23.1680.1027@-2048.23.2048.1061" timestamp="1602052964685" />
     <state x="-1317" y="187" width="586" height="735" key="find.popup/-2048.23.2048.1129/0.23.1440.809@-2048.23.2048.1129" timestamp="1601889486692" />
     <state x="-1359" y="260" width="670" height="676" key="search.everywhere.popup" timestamp="1601884725890">
       <screen x="-2048" y="23" width="2048" height="1061" />

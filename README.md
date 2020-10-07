@@ -7,3 +7,4 @@ Learning Laravel Fundamentals
 - views
 - laravel blade templating engine
 - Laravel Migrations
+- Raw SQL Queries
