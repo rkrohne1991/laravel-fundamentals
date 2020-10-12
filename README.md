@@ -8,3 +8,4 @@ Learning Laravel Fundamentals
 - laravel blade templating engine
 - Laravel Migrations
 - Raw SQL Queries
+- Database - Eloquent / ORM
