@@ -22,8 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d10786f-e302-48a5-8110-2c03b96d575e" name="Default Changelist" comment="">
+    <list default="true" id="8d10786f-e302-48a5-8110-2c03b96d575e" name="Default Changelist" comment="Adding missing README.md text">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/app/Models/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/database/migrations/2020_10_05_092053_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/database/migrations/2020_10_05_092053_create_posts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/database/migrations/2020_10_05_092109_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/database/migrations/2020_10_05_092109_create_users_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cms/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -183,6 +188,8 @@
       <workItem from="1602094995241" duration="4706000" />
       <workItem from="1602244318632" duration="1338000" />
       <workItem from="1602365170808" duration="5974000" />
+      <workItem from="1602488258883" duration="12235000" />
+      <workItem from="1602572791652" duration="6784000" />
     </task>
     <task id="LOCAL-00001" summary="Laravel Fundamentals - initial commit">
       <created>1601884210869</created>
@@ -212,7 +219,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602096019034</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adding task with Database - Eloquent / ORM">
+      <created>1602488475940</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602488475941</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adding missing README.md text">
+      <created>1602488555125</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602488555125</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,9 +256,15 @@
     <MESSAGE value="Adding Laravel Blade templating engine" />
     <MESSAGE value="Finishing task with Laravel Migrations" />
     <MESSAGE value="Adding task with Raw SQL Queries" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding task with Raw SQL Queries" />
+    <MESSAGE value="Adding task with Database - Eloquent / ORM" />
+    <MESSAGE value="Adding missing README.md text" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding missing README.md text" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="424" y="273" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602491871717">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="424" y="273" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1602491871717" />
     <state x="-1386" y="286" key="NewPhpClassDialog" timestamp="1602099094676">
       <screen x="-2048" y="23" width="2048" height="1061" />
     </state>
@@ -246,21 +273,41 @@
       <screen x="-2048" y="23" width="2048" height="1061" />
     </state>
     <state x="-1201" y="485" key="NewPhpFileDialog/-2048.23.2048.1061/0.23.1440.877@-2048.23.2048.1061" timestamp="1601884570343" />
-    <state x="-1424" y="280" key="Vcs.Push.Dialog.v2" timestamp="1602096022355">
-      <screen x="-2048" y="23" width="2048" height="1061" />
+    <state x="585" y="308" key="Vcs.Push.Dialog.v2" timestamp="1602488558590">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="-1424" y="280" key="Vcs.Push.Dialog.v2/-2048.23.2048.1061/0.23.1440.877@-2048.23.2048.1061" timestamp="1601884218016" />
     <state x="-1424" y="280" key="Vcs.Push.Dialog.v2/-2048.23.2048.1061/0.23.1680.1027@-2048.23.2048.1061" timestamp="1602052761186" />
     <state x="-1424" y="280" key="Vcs.Push.Dialog.v2/-2048.23.2048.1061/0.23.1920.1177@-2048.23.2048.1061" timestamp="1602096022355" />
     <state x="-1424" y="296" key="Vcs.Push.Dialog.v2/-2048.23.2048.1129/0.23.1440.809@-2048.23.2048.1129" timestamp="1601886447440" />
-    <state x="-1317" y="177" width="586" height="691" key="find.popup" timestamp="1602052964685">
-      <screen x="-2048" y="23" width="2048" height="1061" />
+    <state x="585" y="308" key="Vcs.Push.Dialog.v2/0.23.1920.1177@0.23.1920.1177" timestamp="1602488558590" />
+    <state x="758" y="532" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602523635099">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="758" y="532" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1177@0.23.1920.1177" timestamp="1602523635099" />
+    <state x="685" y="194" width="574" height="767" key="find.popup" timestamp="1602575169041">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="-1317" y="177" width="586" height="691" key="find.popup/-2048.23.2048.1061/0.23.1680.1027@-2048.23.2048.1061" timestamp="1602052964685" />
     <state x="-1317" y="187" width="586" height="735" key="find.popup/-2048.23.2048.1129/0.23.1440.809@-2048.23.2048.1129" timestamp="1601889486692" />
+    <state x="685" y="194" width="574" height="767" key="find.popup/0.23.1920.1177@0.23.1920.1177" timestamp="1602575169041" />
     <state x="-1359" y="260" width="670" height="676" key="search.everywhere.popup" timestamp="1601884725890">
       <screen x="-2048" y="23" width="2048" height="1061" />
     </state>
     <state x="-1359" y="260" width="670" height="676" key="search.everywhere.popup/-2048.23.2048.1061/0.23.1440.877@-2048.23.2048.1061" timestamp="1601884725890" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/cms/app/Models/Country.php</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/cms/app/Models/User.php</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

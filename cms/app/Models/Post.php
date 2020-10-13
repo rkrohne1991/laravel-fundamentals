@@ -22,4 +22,22 @@ class Post extends Model
         'title',
         'content'
     ];
+
+    public function user() {
+
+        return $this->belongsTo(User::class);
+
+    }
+
+    public function photos() {
+
+        return $this->morphMany('App\Models\Photo', 'imageable');
+
+    }
+
+    public function tags() {
+
+        return $this->morphToMany('App\Models\Tag', 'taggable');
+
+    }
 }

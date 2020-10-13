@@ -9,3 +9,4 @@ Learning Laravel Fundamentals
 - Laravel Migrations
 - Raw SQL Queries
 - Database - Eloquent / ORM
+- Database - Eloquent Relationships

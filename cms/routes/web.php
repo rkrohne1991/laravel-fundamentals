@@ -2,6 +2,10 @@
 
 use App\Http\Controllers\PostsController;
 use App\Models\Post;
+use App\Models\User;
+use App\Models\Country;
+use App\Models\Photo;
+use App\Models\Tag;
 
 /*
 |--------------------------------------------------------------------------
@@ -136,6 +140,7 @@ use App\Models\Post;
 //Route::get('/create', function() {
 //
 //    Post::create(['title' => 'the create method', 'content' => 'WOW I\'am a lot with Edwin Diaz']);
+//
 //});
 
 //Route::get('/update', function() {
@@ -193,5 +198,129 @@ use App\Models\Post;
 //
 ////    $post = Post::withTrashed()->where('id', 6)->get();
 //    Post::onlyTrashed()->where('is_admin', 0)->forceDelete();
+//
+//});
+
+/*
+|--------------------------------------------------------------------------
+| ELOQUENT Relationships
+|--------------------------------------------------------------------------
+*/
+
+
+// One to One relationship
+//Route::get('user/{id}/post', function($id) {
+//
+////    return User::find($id)->post;
+////    return User::find($id)->post->title;
+//    return User::find($id)->post->content;
+//
+//});
+
+//Route::get('post/{id}/user', function($id) {
+//
+//    return Post::find($id)->user->name;
+//
+//});
+
+
+// One to Many relationship
+
+//Route::get('/posts/{id}/user', function($id) {
+//
+//    $user = User::find($id);
+//
+//    foreach ($user->posts as $post) {
+//        echo $post->title . '<br>';
+//    }
+//
+//});
+
+// Many to Many relationship
+
+//Route::get('/user/{id}/role', function($id) {
+//
+//    $user = User::find($id)->roles()->orderBy('id', 'desc')->get();
+//
+//    return $user;
+//
+////    foreach ($user->roles as $role) {
+////        echo $role->name;
+////    }
+//
+//});
+
+// Accessing the intermediate table / pivot
+
+//Route::get('/user/{id}/pivot', function ($id) {
+//
+//    $user = User::find($id);
+//
+//    foreach ($user->roles as $role) {
+//
+//        echo $role->pivot;
+//
+//    }
+//
+//});
+
+//Route::get('/user/country/{id}', function ($id) {
+//
+//    $country = Country::find($id);
+//
+//    foreach ($country->posts as $post) {
+//        echo $post->title . '<br>';
+//    }
+//});
+
+// Polymorphic Relations
+
+//Route::get('user/photos', function() {
+//
+//    $user = User::find(1);
+//
+//    foreach ($user->photos as $photo) {
+//        echo $photo->path;
+//    }
+//
+//});
+
+//Route::get('post/{id}/photos', function($id) {
+//
+//    $post = Post::find($id);
+//
+//    foreach ($post->photos as $photo) {
+//        echo $photo->path . '<br>';
+//    }
+//
+//});
+
+//Route::get('photo/{id}/post', function($id) {
+//
+//    $photo = Photo::findOrFail($id);
+//
+//    return $photo->imageable;
+//
+//});
+
+// Polymorphic Many to Many
+
+//Route::get('/post/tag', function () {
+//
+//    $post = Post::find(1);
+//
+//    foreach ($post->tags as $tag) {
+//        echo $tag->name;
+//    }
+//
+//});
+
+//Route::get('/tag/post', function () {
+//
+//    $tag = Tag::find(2);
+//
+//    foreach ($tag->post as $post) {
+//        echo $post->title;
+//    }
 //
 //});
