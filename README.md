@@ -10,3 +10,4 @@ Learning Laravel Fundamentals
 - Raw SQL Queries
 - Database - Eloquent / ORM
 - Database - Eloquent Relationships
+- Forms - Package and Validation

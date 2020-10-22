@@ -10,10 +10,10 @@
             @endforeach
         </ul>
     @endif
-@stop
+@endsection
 
 @section('footer')
 {{--    <script>--}}
 {{--        alert('hello!');--}}
 {{--    </script>--}}
-    @stop
+@endsection

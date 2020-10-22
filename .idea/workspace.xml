@@ -23,12 +23,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d10786f-e302-48a5-8110-2c03b96d575e" name="Default Changelist" comment="Adding missing README.md text">
+      <change afterPath="$PROJECT_DIR$/cms/app/Http/Requests/CreatePostRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/resources/views/posts/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/resources/views/posts/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/resources/views/posts/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/resources/views/posts/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laravel-fundamentals.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-fundamentals.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/app/Models/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/app/Http/Controllers/PostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/cms/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/cms/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/config/app.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cms/database/migrations/2020_10_05_092053_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/database/migrations/2020_10_05_092053_create_posts_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/database/migrations/2020_10_05_092109_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/database/migrations/2020_10_05_092109_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/resources/views/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/resources/views/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/resources/views/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/resources/views/post.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cms/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,6 +163,7 @@
       <path value="$PROJECT_DIR$/cms/vendor/brick/math" />
       <path value="$PROJECT_DIR$/cms/vendor/dragonmantank/cron-expression" />
       <path value="$PROJECT_DIR$/cms/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/cms/vendor/laravelcollective/html" />
     </include_path>
   </component>
   <component name="ProjectId" id="1iRwxe02sLZhrGK1w4AKq6RKqzu" />
@@ -163,7 +174,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Blade" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cms/resources/views/posts" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -171,7 +183,14 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cms/resources/views/posts" />
+      <recent name="$PROJECT_DIR$/cms" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -190,6 +209,7 @@
       <workItem from="1602365170808" duration="5974000" />
       <workItem from="1602488258883" duration="12235000" />
       <workItem from="1602572791652" duration="6784000" />
+      <workItem from="1603135903797" duration="15626000" />
     </task>
     <task id="LOCAL-00001" summary="Laravel Fundamentals - initial commit">
       <created>1601884210869</created>
@@ -265,14 +285,23 @@
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="424" y="273" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1602491871717" />
+    <state x="695" y="421" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603136532814">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="695" y="421" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.1177@0.23.1920.1177" timestamp="1603136532814" />
     <state x="-1386" y="286" key="NewPhpClassDialog" timestamp="1602099094676">
       <screen x="-2048" y="23" width="2048" height="1061" />
     </state>
     <state x="-1386" y="286" key="NewPhpClassDialog/-2048.23.2048.1061/0.23.1920.1177@-2048.23.2048.1061" timestamp="1602099094676" />
-    <state x="-1201" y="485" key="NewPhpFileDialog" timestamp="1601884570343">
-      <screen x="-2048" y="23" width="2048" height="1061" />
+    <state x="794" y="536" key="NewPhpFileDialog" timestamp="1603138472836">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="-1201" y="485" key="NewPhpFileDialog/-2048.23.2048.1061/0.23.1440.877@-2048.23.2048.1061" timestamp="1601884570343" />
+    <state x="794" y="536" key="NewPhpFileDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1603138472836" />
+    <state x="461" y="250" key="SettingsEditor" timestamp="1603356668658">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="461" y="250" key="SettingsEditor/0.23.1920.1177@0.23.1920.1177" timestamp="1603356668658" />
     <state x="585" y="308" key="Vcs.Push.Dialog.v2" timestamp="1602488558590">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
@@ -285,12 +314,12 @@
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="758" y="532" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1177@0.23.1920.1177" timestamp="1602523635099" />
-    <state x="685" y="194" width="574" height="767" key="find.popup" timestamp="1602575169041">
+    <state x="685" y="194" width="574" height="767" key="find.popup" timestamp="1603276808040">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="-1317" y="177" width="586" height="691" key="find.popup/-2048.23.2048.1061/0.23.1680.1027@-2048.23.2048.1061" timestamp="1602052964685" />
     <state x="-1317" y="187" width="586" height="735" key="find.popup/-2048.23.2048.1129/0.23.1440.809@-2048.23.2048.1129" timestamp="1601889486692" />
-    <state x="685" y="194" width="574" height="767" key="find.popup/0.23.1920.1177@0.23.1920.1177" timestamp="1602575169041" />
+    <state x="685" y="194" width="574" height="767" key="find.popup/0.23.1920.1177@0.23.1920.1177" timestamp="1603276808040" />
     <state x="-1359" y="260" width="670" height="676" key="search.everywhere.popup" timestamp="1601884725890">
       <screen x="-2048" y="23" width="2048" height="1061" />
     </state>

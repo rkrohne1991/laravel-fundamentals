@@ -110,6 +110,7 @@
       <path value="$PROJECT_DIR$/cms/vendor/brick/math" />
       <path value="$PROJECT_DIR$/cms/vendor/dragonmantank/cron-expression" />
       <path value="$PROJECT_DIR$/cms/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/cms/vendor/laravelcollective/html" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.3" />
