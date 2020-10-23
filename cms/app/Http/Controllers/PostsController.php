@@ -17,7 +17,7 @@ class PostsController extends Controller
     {
 //        return "it is working " . $id;
 
-        $posts = Post::all();
+        $posts = Post::Latest()->get();
 
         return view('posts.index', compact('posts'));
     }

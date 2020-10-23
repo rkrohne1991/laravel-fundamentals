@@ -6,6 +6,7 @@ use App\Models\User;
 use App\Models\Country;
 use App\Models\Photo;
 use App\Models\Tag;
+use Carbon\Carbon;
 
 /*
 |--------------------------------------------------------------------------
@@ -336,4 +337,26 @@ Route::group(['middleware'=>'web'], function() {
 
     Route::resource('/posts', PostsController::class);
 
+    Route::get('/dates', function () {
+        $date = new DateTime('+1 week');
+        echo $date->format('d-m-Y');
+        echo '<br>';
+        echo Carbon::now()->addDays(10)->diffForHumans();
+        echo '<br>';
+        echo Carbon::now()->subMonths(5)->diffForHumans();
+        echo '<br>';
+        echo Carbon::now()->yesterday()->diffForHumans();
+    });
+
+    Route::get('/get-name', function () {
+        $user = User::find(1);
+        echo $user->name;
+    });
+
+    Route::get('/set-name', function () {
+        $user = User::find(1);
+        $user->name = 'willaim hill';
+        $user->save();
+        return $user;
+    });
 });

@@ -11,3 +11,4 @@ Learning Laravel Fundamentals
 - Database - Eloquent / ORM
 - Database - Eloquent Relationships
 - Forms - Package and Validation
+- Database - Some more model manipulation with Dates, Accessors, Mutators and Query Scope
