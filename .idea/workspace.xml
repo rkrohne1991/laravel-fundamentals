@@ -24,10 +24,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8d10786f-e302-48a5-8110-2c03b96d575e" name="Default Changelist" comment="Adding missing README.md text">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/cms/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cms/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/app/Http/Controllers/PostsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cms/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/app/Models/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/resources/views/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/resources/views/posts/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/resources/views/posts/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,6 +199,7 @@
       <workItem from="1602488258883" duration="12235000" />
       <workItem from="1602572791652" duration="6784000" />
       <workItem from="1603135903797" duration="19691000" />
+      <workItem from="1603464758134" duration="3903000" />
     </task>
     <task id="LOCAL-00001" summary="Laravel Fundamentals - initial commit">
       <created>1601884210869</created>
@@ -248,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603357012921</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Addig task with - Database - Some more model manipulation with Dates, Accessors, Mutators and Query Scope">
+      <created>1603465012537</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603465012537</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,7 +283,8 @@
     <MESSAGE value="Adding task with Database - Eloquent / ORM" />
     <MESSAGE value="Adding missing README.md text" />
     <MESSAGE value="Adding tasks with Forms - Package and Validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding tasks with Forms - Package and Validation" />
+    <MESSAGE value="Addig task with - Database - Some more model manipulation with Dates, Accessors, Mutators and Query Scope" />
+    <option name="LAST_COMMIT_MESSAGE" value="Addig task with - Database - Some more model manipulation with Dates, Accessors, Mutators and Query Scope" />
   </component>
   <component name="WindowStateProjectService">
     <state x="424" y="273" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602491871717">
@@ -298,14 +308,14 @@
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="461" y="250" key="SettingsEditor/0.23.1920.1177@0.23.1920.1177" timestamp="1603356668658" />
-    <state x="585" y="308" key="Vcs.Push.Dialog.v2" timestamp="1603357017759">
+    <state x="585" y="308" key="Vcs.Push.Dialog.v2" timestamp="1603465016551">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="-1424" y="280" key="Vcs.Push.Dialog.v2/-2048.23.2048.1061/0.23.1440.877@-2048.23.2048.1061" timestamp="1601884218016" />
     <state x="-1424" y="280" key="Vcs.Push.Dialog.v2/-2048.23.2048.1061/0.23.1680.1027@-2048.23.2048.1061" timestamp="1602052761186" />
     <state x="-1424" y="280" key="Vcs.Push.Dialog.v2/-2048.23.2048.1061/0.23.1920.1177@-2048.23.2048.1061" timestamp="1602096022355" />
     <state x="-1424" y="296" key="Vcs.Push.Dialog.v2/-2048.23.2048.1129/0.23.1440.809@-2048.23.2048.1129" timestamp="1601886447440" />
-    <state x="585" y="308" key="Vcs.Push.Dialog.v2/0.23.1920.1177@0.23.1920.1177" timestamp="1603357017759" />
+    <state x="585" y="308" key="Vcs.Push.Dialog.v2/0.23.1920.1177@0.23.1920.1177" timestamp="1603465016551" />
     <state x="758" y="532" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602523635099">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>

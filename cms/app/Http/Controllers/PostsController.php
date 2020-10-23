@@ -62,8 +62,20 @@ class PostsController extends Controller
         $post->user_id = 1;
         $post->title = $request->title;
         $post->content = $request->title;
-        $post->save();
 
+        $input = $request->all();
+//        echo '<br>';
+//        return $file;
+
+        if ($file = $request->file('file')) {
+            $name = $file->getClientOriginalName();
+            $file->move('images', $name);
+            $input['path'] = $name;
+            $post->path = $name;
+        }
+
+//        Post::create($input);
+        $post->save();
         return redirect('/posts');
 
     }
